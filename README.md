@@ -1,4 +1,6 @@
 
+
+
 # AI Chat App
 
 A beautiful, responsive AI-powered chat application built with React and Vite.
@@ -14,6 +16,25 @@ A beautiful, responsive AI-powered chat application built with React and Vite.
 - Status indicator for AI readiness and loading
 - Custom robot and user icons
 - Responsive design for all devices
+- **Modern glassmorphism loader with animated robot and fade-out**
+- **Improved error handling for localStorage and AI errors**
+- **UI polish and accessibility improvements**
+
+## Deployment (Vercel)
+
+You can easily deploy this app for free using [Vercel](https://vercel.com/):
+
+1. Push your code to GitHub (already done).
+2. Go to [vercel.com/import](https://vercel.com/import) and import your GitHub repository.
+3. Follow the prompts (Vercel will auto-detect the Vite/React setup).
+4. Set the build command to `npm run build` and the output directory to `dist` if not auto-detected.
+5. Click "Deploy" and your app will be live on a Vercel URL!
+
+You can also deploy manually with:
+```sh
+npm run build
+# Then drag the contents of the dist/ folder to Vercel's dashboard for manual deployment
+```
 
 ## Getting Started
 
@@ -57,6 +78,5 @@ A beautiful, responsive AI-powered chat application built with React and Vite.
 This project is open source and licensed under the MIT License.
 
 **Created by Yassine Samlali.**
-# Ai-Chat-App
 # Ai-Chat-App
 # Ai-Chat-App
