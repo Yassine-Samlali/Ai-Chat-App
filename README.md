@@ -36,6 +36,16 @@ npm run build
 # Then drag the contents of the dist/ folder to Vercel's dashboard for manual deployment
 ```
 
+### Vercel Deployment Tips
+
+- If you use a custom domain, add it in your Vercel dashboard after deployment.
+- Make sure your repo is public or connect your GitHub account to Vercel for private repos.
+- Vercel auto-detects Vite/React, but you can set:
+  - **Build Command:** `npm run build`
+  - **Output Directory:** `dist`
+- For environment variables, add them in the Vercel dashboard under Project Settings > Environment Variables.
+- If you see a blank page after deploy, check the build logs for errors and ensure the output directory is set to `dist`.
+
 ## Getting Started
 
 ### Prerequisites
@@ -78,5 +88,4 @@ npm run build
 This project is open source and licensed under the MIT License.
 
 **Created by Yassine Samlali.**
-# Ai-Chat-App
-# Ai-Chat-App
+
